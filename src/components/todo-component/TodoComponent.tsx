@@ -1,5 +1,5 @@
 import {ITodo} from "../../models/ITodo.ts";
-import '../todo-component/TodoComponent.css'
+import './TodoComponents.css'
 
 interface TodoComponentProps {
     item: ITodo

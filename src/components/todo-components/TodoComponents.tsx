@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {ITodo, ITodoResp} from "../../models/ITodo.ts";
-import {TodoComponent} from "../todo-components/TodoComponent.tsx";
-import {getTodo} from "../services/api.service.ts";
+import {TodoComponent} from "../todo-component/TodoComponent.tsx";
+import {getTodo} from "../../services/api.service.ts";
 
 export const TodoComponents = () => {
 
